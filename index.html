@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Doom Eternal Slider</title>
+
+    <link rel="shortcut icon" href="src/imagens/icon3.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/icon.png" alt="doom-icon" class="doom-icon">
+        <h1 class="titulo">Boss List</h1>
+    </header>
+
+    <main class="lista">
+        <button class="btn-seta seta-esquerda" id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="boss">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Dark Lord</h2>
+                    <p class="dificuldade">Easy</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/dark-lord.png" alt="Dark Lord" class="imagem-doom">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Dark Lord é o título do governante supremo do reino do Inferno. O título parece se referir a qualquer entidade que reivindique domínio sobre o Inferno, com o passado do reino sendo dividido em "eras" baseadas no reinado desses Senhores. O primeiro Lorde das Trevas, Davoth serve como o principal antagonista de Doom Eternal: The Ancient Gods e, por extensão, toda a série Doom.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Marauder</h2>
+                    <p class="dificuldade">Medium</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/marauder.png" alt="Marauder" class="imagem-doom">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Um grupo de Sentinelas da Noite ressuscitados e corrompidos, os Carrascos são aqueles que se aliaram ao Khan Maykr e aos Sacerdotes do Inferno contra o reino de Argent D'Nur, tornando-se sentinelas demoníacas após suas mortes. Como ex-membros do bando pessoal de guerreiros do Doom Slayer, eles têm acesso a uma ampla gama de técnicas muito poderosas que os tornam indiscutivelmente um dos inimigos mais desafiadores que o jogador enfrentará ao longo da campanha.</p>
+            </li>
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Icon Of Sin</h2>
+                    <p class="dificuldade">Hard</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/icon-of-sin.png" alt="Icon Of Sin" class="imagem-doom">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">O Khan Maykr tomou medidas para aumentar o titã, instalando a tecnologia Maykr em toda a sua estrutura para garantir que pudesse ser controlado através de seu coração. Com o ritual interrompido, o Ícone agora está totalmente liberado, percorrendo a Terra até que o Inferno consuma tudo. Não mais preso ao Coração do Filho do Traidor, o Ícone do Pecado está livre de qualquer medida de controle que os Maykrs possam ter concebido. Apenas o Slayer, profetizado na lenda de Argenta para enfrentar o Ícone, pode parar este apocalipse.</p>
+            </li>
+            <li class="cartao fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">Doom Slayer</h2>
+                    <p class="dificuldade">!Err0r!</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/doom-slayer.png" alt="Doom Slayer" class="imagem-doom">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Os demônios primeiro lhe deram a denominação de "Doom Slayer" e também se referem a ele como o Predador Livre, a Besta e o Andarilho do Inferno. A UAC se refere a ele como DOOM Marine, ou The Slayer.</p>
+            </li>
+        </ul>
+        
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avançar">
+        </button>
+
+    </main>
+
+    <main class="secret-button">
+        <button class="btn-seta seta-secret" id="btn-secret">
+            <img src="src/imagens/icon2.png" alt="seta secreta" class="seta-secret-img">
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
